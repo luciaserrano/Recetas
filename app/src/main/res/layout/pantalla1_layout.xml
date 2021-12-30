@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33257580"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#888B9C"
+            android:fontFamily="@font/pt_sans_caption_bold"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Lasaña de carne"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/lasanadecarne" />
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/pt_sans_caption_bold"
+            android:gravity="center"
+            android:text="ingredientes"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/texto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="2 cebollas y 2 dientes de ajo 2 pimientos rojos 2 zanahorias Sal y pimienta negra recién molida (al gusto) 150 g. de bacon o panceta 500 g. de carne (una mezcla de cerdo y ternera) 12 láminas de lasaña o lasagna Garofalo 100 g. de queso rallado tipo Parmesano 100 ml. de aceite de oliva virgen extra 1 vaso de tomate natural 1 vaso de vino blanco Bechamel (la suficiente para cubrir la lasaña)"
+            android:textColor="#3949AB"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/texto4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/pt_sans_caption_bold"
+            android:gravity="center"
+            android:text="Cómo preparar una lasaña casera"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/texto5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Calentamos una cazuela grande de agua, la más ancha de casa. Cuando empiece a hervir echamos 2 puñados generosos de sal. Introducimos las láminas de lasaña una a una sin que se toquen (para que no se peguen entre ellas). Ahora podemos encontrar infinidad de tipos de lasaña donde no hace hidratarla como se hacía antes. En casa muchas veces para ahorrar tiempo empleo las que se hidratan con la bechamel y el jugo que suelta la salsa al hornear. Si lo hacéis de la manera tradicional tenemos que remover con una cuchara de madera y en unos 10 minutos sacamos las láminas. Las estiramos encima de unas hojas de papel absorbente de cocina. Aunque os parezca que no están, acabarán haciéndose en el horno. El siguiente paso será lavar muy bien todas las verduras que vamos a emplear en el relleno. En la receta os aconsejo el relleno de la clásica salsa boloñesa, zanahorias, ajo, pimientos y cebolla. Aunque se pueden añadir las que más os gusten en casa, un poquito de apio, unos espárragos trigueros o unas berenjenas le van perfectas. Imaginación y haréis una lasaña insuperable."
+            android:textColor="#B3000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imagen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/lasanapaso1" />
+
+        <TextView
+            android:id="@+id/texto6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/pt_sans_caption_bold"
+            android:gravity="center"
+            android:text="Cómo preparar el relleno de lasaña de carne"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/texto7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Las verduras las cortamos en trocitos pequeños para que se junten bien en la salsa. Las zanahorias las cortamos lo más fino posible. Os recomiendo laminarlas con el pelador de las patatas porque a la hora de pocharlas si las tiras son gruesas no se hacen. Reservamos todo en un bol. En otra cazuela echamos aceite de oliva virgen extra. Empezamos introduciendo pochando la cebolla y el ajo, cuando esté doradita, añadimos el resto de ingredientes. Sofreímos todo a temperatura media durante unos 15 minutos y esperamos por la carne. Salpimentamos la carne al gusto y la echamos a la cazuela con la verdura. Dejamos que se pase durante 5 minutos y cuando veamos que va cambiando de color introducimos el bacon o panceta en trozos muy pequeños. Vertemos un vaso de vino blanco y esperamos a que reduzca (otros 5 minutos a fuego medio). Añadimos un vaso de tomate natural y rectificamos de sal y pimienta. Removemos la carne con las verduras y retiramos del fuego. Precalentamos el horno a 200º C durante 15 minutos, lo justo para hacer el resto de la lasaña."
+            android:textColor="#B3000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/lasanapaso2" />
+
+        <TextView
+            android:id="@+id/texto8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/pt_sans_caption_bold"
+            android:gravity="center"
+            android:text="Preparación de la salsa bechamel y final de la receta"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/texto9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="Mientras reposa la salsa vamos a preparar la bechamel, la podemos preparar más cremosa o más consistente dependiendo de las medidas. En el blog tenéis la receta de esta crema con todo lujo de detalles. Para montar la lasaña la cosa es muy sencilla. Ponemos en el fondo de la fuente unas cucharadas de la bechamel. Encima las láminas, una capa de la mezcla con la carne en cada lámina, otra vez la bechamel y así hasta tener 3 pisos. Se pueden hacer las capas de lasaña que quieras, bueno las que te permita la fuente. Finalmente rematamos con una capa generosa de bechamel Y para aquellos que le guste el queso, rallamos aquel que más os guste, que sea especial para gratinar. Os recomiendo un queso curadito tipo parmesano. Horneamos en la bandeja del medio durante 15 minutos a 180º C y durante 3-5 minutos en la parte superior con el gratinador puesto para que se dore. Ahí la tenéis, servidla calentita. Os aseguro que llega para 4 personas de manera generosa. Ya veréis como triunfáis en casa con esta receta, simplemente de rechupete. Si sois de los que con un café aguantáis toda la tarde sin bostezar, animaros con algo más potente como chorizo o morcilla."
+            android:textColor="#B3000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
